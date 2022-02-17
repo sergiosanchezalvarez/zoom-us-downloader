@@ -12,7 +12,6 @@
     }
   ],
   "web_accessible_resources": [
-    "assets/icons/*",
     "assets/styles.css"
   ]
 }
