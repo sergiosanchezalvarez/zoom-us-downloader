@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name":"Zoom.us video downloader",
+  "version": "1.0",
+  "author": "Sergio Sánchez <sergiosanchezalvarez@gmail.com>",
+  "description":  "Allow zoom us video download",
+  "content_scripts": [
+    {
+      "matches": ["https://*.zoom.us/*"],
+      "js": ["./action.js"],
+      "css": [ "assets/styles.css" ]
+    }
+  ],
+  "web_accessible_resources": [
+    "assets/icons/*",
+    "assets/styles.css"
+  ]
+}

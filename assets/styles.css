@@ -1,0 +1,15 @@
+.linkDiv{
+    margin: 0 auto;
+    background-color: #ddd;
+    display: block;
+    width: auto;
+    text-align: center;
+    padding: 15px !important;
+}
+
+.linkDiv a {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+}
